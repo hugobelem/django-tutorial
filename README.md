@@ -1,4 +1,4 @@
-> Writing your first Django app. Throughout this tutorial, we’ll walk you through the creation of a basic poll application.
+> Throughout this tutorial, we’ll walk you through the creation of a basic poll application.
 
 ## Features
 - Django 5.1 & Python 3.12
@@ -6,4 +6,4 @@
 - An admin site that lets you add, change, and delete polls
 ----
 
-> A tutorial by [Django](https://docs.djangoproject.com/en/5.1/intro/tutorial01/)
+> Writing your first Django app. A tutorial by [Django](https://docs.djangoproject.com/en/5.1/intro/tutorial01/)
