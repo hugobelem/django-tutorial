@@ -9,6 +9,7 @@ def index(request):
 
     return render(request, 'polls/index.html', context)
 
+
 def detail(request,question_id):
     try:
         question = Question.objects.get(pk=question_id)
@@ -17,11 +18,13 @@ def detail(request,question_id):
     
     return render(request, 'polls/details.html', {'question': question})
 
+
 def results(request, question_id):
     response = f'You are looking at the results of the question {question_id}'
 
     return HttpResponse(response)
 
+
 def vote(request, question_id):
-    
+
     return HttpResponse(f'You are voting on question {question_id}')
